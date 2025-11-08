@@ -10,10 +10,11 @@
     <header>
         <h1>TechNova Academy</h1>
     </header>
-    <h2>Formulário de Inscrição</h2>
-    <form action="#" method="get">
 
-        <!-- introdução -->
+    <h2>Formulário de Inscrição</h2>
+
+    <form action="#" method="get">
+        <!-- dados iniciais -->
         <fieldset>
             <legend>Dados Iniciais</legend>
 
@@ -24,7 +25,7 @@
             <input type="email" name="email" id="email" placeholder="meuEmail@gmail.com" required>
 
             <label for="telefone">Número de telefone</label>
-            <input type="tel" name="telefone" id="telefone" placeholder="(11) 9 9999-9999" required>
+            <input type="number" name="telefone" id="telefone" placeholder="(11) 9 9999-9999" required>
 
             <label for="nascimento">Data de nascimento</label>
             <input type="date" name="nascimento" id="nascimento" required>
@@ -39,6 +40,7 @@
             </div>
         </fieldset>
 
+        <!-- enviar documento -->
         <div>
             <label for="doc">Enviar Imagem</label>
             <input type="file" name="documento" id="doc" required>
@@ -161,11 +163,27 @@ Termos e Condições de Uso
             <input type="checkbox" id="act" name="termos" value="aceito" required>
         </div>
 
+        <!-- botão de enviar -->
         <input type="submit" value="ENVIAR">
     </form>
+
+    <div>
+        <button popovertarget="mypopover">Por que escolher a TechNova Academy?</button>
+        <p id="mypopover" popover>
+            <strong>Por que escolher a TechNova Academy?</strong><br><br>
+            Em um mundo cada vez mais movido pela inovação, escolher onde estudar tecnologia é uma das decisões mais importantes da sua carreira. A TechNova Academy não é apenas uma escola — é um ecossistema de aprendizado que prepara você para liderar o futuro. <br><br>
+
+            🌟 Educação que acompanha a evolução do mercado
+            Na TechNova, o currículo é desenvolvido em parceria com profissionais da indústria, garantindo que você aprenda as tecnologias mais atuais e relevantes — como inteligência artificial, ciência de dados, desenvolvimento web, cibersegurança e muito mais. <br><br>
+
+            👩‍💻 Aprendizado prático e mão na massa
+            Aqui, você não fica só na teoria. Os cursos são focados em projetos reais, desafios práticos e simulações do mercado de trabalho. Você sai com um portfólio que impressiona qualquer recrutador.
+        </p>
+    </div>
+
     <footer>
         <p>Rua Exemplo, 123 - São Paulo/SP</p>
-    <p>Contato: contato@suaempresa.com.br</p>
+        <p>Contato: contato@suaempresa.com.br</p>
     </footer>
 </body>
 </html>
