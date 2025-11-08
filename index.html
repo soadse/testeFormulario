@@ -24,10 +24,10 @@
             <input type="tel" name="telefone" id="telefone" placeholder="(11) 9 9999-9999" required>
 
             <label for="nascimento">Data de nascimento</label>
-            <input type="date" name="nascimento" id="nascimento" placeholder="01/01/2000" required>
+            <input type="date" name="nascimento" id="nascimento" required>
 
             <div>
-                <p>Possui atividade extra?</p>
+                <p>Tem filhos?</p>
                 <input type="radio" name="atvExtra" id="sim" value="sim">
                 <label for="sim">Sim</label>
 
@@ -151,6 +151,11 @@ Termos e Condições de Uso
         <div>
             <label for="act">Li e Aceito</label>
             <input type="checkbox" id="act" name="termos" value="aceito" required>
+        </div>
+
+        <div>
+            <label for="doc">Enviar Documentos</label>
+            <input type="file" name="documento" id="doc">
         </div>
 
         <input type="submit" value="ENVIAR">
