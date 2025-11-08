@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 body {
     width: 100vw;
@@ -10,17 +10,26 @@ body {
     align-items: center;
     flex-direction: column;
     overflow-x: hidden;
-    margin: 20px 0 50px 0;
 }
-h1 {
-    text-align: center;
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    background-color: lightslategray;
+    color: white;
+    font-weight: bolder;
+}
+h2 {
+    margin-top: 40px;
 }
 form {
     display: flex;
     flex-direction: column;
     width: 90%;
     max-width: 500px;
-    margin-top: 30px;
+    margin: 30px auto;
 }
 form fieldset {
     display: flex;
@@ -74,4 +83,13 @@ form input[type="submit"] {
     border: none;
     border-radius: 5px;
     margin: auto;
+}
+
+footer {
+    background-color: lightslategray;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    position: relative;
+    padding: 20px;
 }
