@@ -12,7 +12,7 @@
 
         <!-- introdução -->
         <fieldset>
-            <legend>Introdução</legend>
+            <legend>Dados Iniciais</legend>
 
             <label for="nome">Nome completo</label>
             <input type="text" name="nome" id="nome" required autofocus>
@@ -71,7 +71,7 @@
         <fieldset>
             <legend>Unidades</legend>
 
-            <select name="conhecimento" required>
+            <select name="unidade" required>
                 <option value="">Selecione a unidade</option>
 
                 <optgroup label="Zona Leste">
@@ -130,7 +130,30 @@
             <textarea name="msg" rows="5" placeholder="Digite sua mensagem aqui" maxlength="255"></textarea>
         </fieldset>
 
-        <input type="submit" value="enviar">
+        <!-- termos -->
+        <textarea rows="10" disabled>
+            Termos e Condições de Uso
+        
+    Bem-vindo à nossa plataforma! Ao acessar ou utilizar nossos serviços, você concorda com os seguintes termos e condições. Este documento estabelece os direitos, deveres e responsabilidades entre você (usuário) e nossa empresa.
+
+    Aceitação dos Termos Ao utilizar este aplicativo, você declara estar ciente e de acordo com todas as cláusulas aqui descritas. Caso não concorde, recomendamos que interrompa o uso imediatamente.
+
+    Uso da Plataforma O usuário compromete-se a utilizar os recursos disponíveis de forma ética, legal e responsável, respeitando os direitos de terceiros e as normas vigentes.
+
+    Privacidade e Dados Coletamos informações com o objetivo de melhorar sua experiência. Os dados são tratados conforme nossa Política de Privacidade, disponível para consulta a qualquer momento.
+
+    Modificações Reservamo-nos o direito de alterar estes termos a qualquer momento, sem aviso prévio. Recomendamos que o usuário revise este documento periodicamente.
+
+    Limitação de Responsabilidade A plataforma é fornecida "como está", sem garantias explícitas ou implícitas. Não nos responsabilizamos por eventuais danos decorrentes do uso indevido ou interrupções nos serviços.
+
+    Contato Em caso de dúvidas, sugestões ou solicitações, entre em contato com nossa equipe de suporte através dos canais oficiais.
+        </textarea>
+        <div>
+            <label for="act">Li e Aceito</label>
+            <input type="checkbox" id="act" name="termos" value="aceito" required>
+        </div>
+
+        <input type="submit" value="ENVIAR">
     </form>
 </body>
 </html>
