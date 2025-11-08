@@ -14,9 +14,9 @@ body {
 }
 
 #mypopover:popover-open {
-    bottom: 200px;
     margin: auto;
     width: 80%;
+    height: 50%;
     padding: 30px;
     border-radius: 0 10px 10px 10px;
     border: none;
