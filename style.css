@@ -10,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
 }
 form {
     display: flex;
@@ -31,7 +32,6 @@ form > fieldset > input {
 form fieldset:nth-of-type(2) div select{
     margin-top: 20px;
     width: 100%;
-    text-align: center;
 }
 form fieldset div label{
     margin-right: 15px;
