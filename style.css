@@ -24,6 +24,8 @@ form fieldset {
     padding: 10px;
     margin-bottom: 20px;
     background-color: rgba(211, 211, 211, 0.295);
+    border-radius: 0 10px 0 10px ;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.116);
 }
 form > fieldset > input {
     margin-bottom: 10px;
@@ -44,7 +46,8 @@ form fieldset div label{
     margin-right: 15px;
 }
 form fieldset textarea {
-    padding: 4px;
+    padding: 5px;
+    resize: none;
 }
 form input[type="submit"] {
     width: 100%;
