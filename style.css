@@ -5,17 +5,17 @@
 }
 body {
     width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
+    overflow-x: hidden;
+    margin: 20px;
 }
 form {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     max-width: 500px;
 }
 form fieldset {
@@ -26,12 +26,16 @@ form fieldset {
     background-color: rgba(211, 211, 211, 0.295);
 }
 form > fieldset > input {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     height: 30px;
 }
-form fieldset:nth-of-type(2) div select{
-    margin-top: 20px;
+form fieldset select {
+    height: 30px;
     width: 100%;
+    margin-top: 10px;
+}
+form fieldset:nth-of-type(2) div input {
+    margin-bottom: 15px;
 }
 form fieldset div label{
     margin-right: 15px;
