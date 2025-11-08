@@ -57,15 +57,14 @@ form fieldset textarea {
     padding: 5px;
     resize: none;
 }
-form > div:nth-of-type(1) {
-    text-align: end;
+form > div {
+    display: flex;
+    justify-content: space-between;
     margin: 7px 0 50px 0;
 }
-form > div:nth-of-type(2){
+form > div > div:nth-of-type(1){
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: -30px 0 40px 0;
+    flex-direction: column;
 }
 form input[type="submit"] {
     width: 100%;
