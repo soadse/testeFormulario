@@ -28,9 +28,10 @@ form > fieldset > input {
     margin-bottom: 15px;
     height: 30px;
 }
-form fieldset:nth-of-type(2) div{
-    display: flex;
-    justify-content: space-around;
+form fieldset:nth-of-type(2) div select{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
 }
 form fieldset div label{
     margin-right: 15px;
